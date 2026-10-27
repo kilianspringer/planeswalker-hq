@@ -2,7 +2,7 @@
 # runtime that serves the API and the built files.
 
 # --- Stage 1: build the React app ------------------------------------------------------
-FROM node:24.21.0-alpine AS web
+FROM node:24.22.1-alpine AS web
 WORKDIR /web
 COPY web/package.json web/package-lock.json ./
 RUN npm ci

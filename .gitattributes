@@ -1,0 +1,2 @@
+# Migration checksums are taken over the raw bytes: keep line endings stable everywhere.
+*.sql text eol=lf
